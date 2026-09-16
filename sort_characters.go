@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func sortChar(s string) {
+func SortChar(s string) {
 	sToLower := strings.ToLower(s)
 	text := strings.ReplaceAll(sToLower, " ", "")
 
@@ -30,7 +30,7 @@ func main() {
 	case1 := "Sample Case"
 	case2 := "Next Case"
 
-	sortChar(case1)
-	sortChar(case2)
+	SortChar(case1)
+	SortChar(case2)
 
 }
